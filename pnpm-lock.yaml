@@ -89,7 +89,7 @@ importers:
         version: 4.3.0
       '@teo-garcia/eslint-config-shared':
         specifier: ^0.4.2
-        version: 0.4.2(@eslint/compat@2.1.0(eslint@10.4.1(jiti@2.7.0)))(@eslint/eslintrc@3.3.5)(@eslint/js@10.0.1(eslint@10.4.1(jiti@2.7.0)))(@typescript-eslint/eslint-plugin@8.61.0(@typescript-eslint/parser@8.61.0(eslint@10.4.1(jiti@2.7.0))(typescript@5.9.3))(eslint@10.4.1(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/parser@8.61.0(eslint@10.4.1(jiti@2.7.0))(typescript@5.9.3))(eslint-config-prettier@10.1.8(eslint@10.4.1(jiti@2.7.0)))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.61.0(eslint@10.4.1(jiti@2.7.0))(typescript@5.9.3))(eslint@10.4.1(jiti@2.7.0)))(eslint-plugin-playwright@2.10.4(eslint@10.4.1(jiti@2.7.0)))(eslint-plugin-simple-import-sort@13.0.0(eslint@10.4.1(jiti@2.7.0)))(eslint@10.4.1(jiti@2.7.0))(globals@17.6.0)
+        version: 0.4.2(@eslint/compat@2.1.0(eslint@10.4.1(jiti@2.7.0)))(@eslint/eslintrc@3.3.5)(@eslint/js@10.0.1(eslint@10.4.1(jiti@2.7.0)))(@typescript-eslint/eslint-plugin@8.61.0(@typescript-eslint/parser@8.61.0(eslint@10.4.1(jiti@2.7.0))(typescript@5.9.3))(eslint@10.4.1(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/parser@8.61.0(eslint@10.4.1(jiti@2.7.0))(typescript@5.9.3))(eslint-config-prettier@10.1.8(eslint@10.4.1(jiti@2.7.0)))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.61.0(eslint@10.4.1(jiti@2.7.0))(typescript@5.9.3))(eslint@10.4.1(jiti@2.7.0)))(eslint-plugin-playwright@2.10.4(eslint@10.4.1(jiti@2.7.0)))(eslint-plugin-simple-import-sort@14.0.0(eslint@10.4.1(jiti@2.7.0)))(eslint@10.4.1(jiti@2.7.0))(globals@17.6.0)
       '@teo-garcia/prettier-config-shared':
         specifier: ^0.2.10
         version: 0.2.10(prettier@3.8.4)
@@ -130,8 +130,8 @@ importers:
         specifier: ^2.4.0
         version: 2.10.4(eslint@10.4.1(jiti@2.7.0))
       eslint-plugin-simple-import-sort:
-        specifier: ^13.0.0
-        version: 13.0.0(eslint@10.4.1(jiti@2.7.0))
+        specifier: ^14.0.0
+        version: 14.0.0(eslint@10.4.1(jiti@2.7.0))
       globals:
         specifier: ^17.0.0
         version: 17.6.0
@@ -2665,8 +2665,8 @@ packages:
     peerDependencies:
       eslint: '>=8.40.0'
 
-  eslint-plugin-simple-import-sort@13.0.0:
-    resolution: {integrity: sha512-McAc+/Nlvcg4byY/CABGH8kqnefWBj8s3JA2okEtz8ixbECQgU46p0HkTUKa4YS7wvgGceimlc34p1nXqbWqtA==}
+  eslint-plugin-simple-import-sort@14.0.0:
+    resolution: {integrity: sha512-NUJO0+XFCkk+o5EsAJruTgnfMEpeWrPWeJS15UVF60GgXmqz1BJ9/3hzlvG7lkL8Bubzos5cCLptThbFfPnSMQ==}
     peerDependencies:
       eslint: '>=5.0.0'
 
@@ -5991,7 +5991,7 @@ snapshots:
   '@tanstack/query-devtools@5.101.0':
     optional: true
 
-  '@teo-garcia/eslint-config-shared@0.4.2(@eslint/compat@2.1.0(eslint@10.4.1(jiti@2.7.0)))(@eslint/eslintrc@3.3.5)(@eslint/js@10.0.1(eslint@10.4.1(jiti@2.7.0)))(@typescript-eslint/eslint-plugin@8.61.0(@typescript-eslint/parser@8.61.0(eslint@10.4.1(jiti@2.7.0))(typescript@5.9.3))(eslint@10.4.1(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/parser@8.61.0(eslint@10.4.1(jiti@2.7.0))(typescript@5.9.3))(eslint-config-prettier@10.1.8(eslint@10.4.1(jiti@2.7.0)))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.61.0(eslint@10.4.1(jiti@2.7.0))(typescript@5.9.3))(eslint@10.4.1(jiti@2.7.0)))(eslint-plugin-playwright@2.10.4(eslint@10.4.1(jiti@2.7.0)))(eslint-plugin-simple-import-sort@13.0.0(eslint@10.4.1(jiti@2.7.0)))(eslint@10.4.1(jiti@2.7.0))(globals@17.6.0)':
+  '@teo-garcia/eslint-config-shared@0.4.2(@eslint/compat@2.1.0(eslint@10.4.1(jiti@2.7.0)))(@eslint/eslintrc@3.3.5)(@eslint/js@10.0.1(eslint@10.4.1(jiti@2.7.0)))(@typescript-eslint/eslint-plugin@8.61.0(@typescript-eslint/parser@8.61.0(eslint@10.4.1(jiti@2.7.0))(typescript@5.9.3))(eslint@10.4.1(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/parser@8.61.0(eslint@10.4.1(jiti@2.7.0))(typescript@5.9.3))(eslint-config-prettier@10.1.8(eslint@10.4.1(jiti@2.7.0)))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.61.0(eslint@10.4.1(jiti@2.7.0))(typescript@5.9.3))(eslint@10.4.1(jiti@2.7.0)))(eslint-plugin-playwright@2.10.4(eslint@10.4.1(jiti@2.7.0)))(eslint-plugin-simple-import-sort@14.0.0(eslint@10.4.1(jiti@2.7.0)))(eslint@10.4.1(jiti@2.7.0))(globals@17.6.0)':
     dependencies:
       '@eslint/compat': 2.1.0(eslint@10.4.1(jiti@2.7.0))
       '@eslint/eslintrc': 3.3.5
@@ -6001,7 +6001,7 @@ snapshots:
       eslint: 10.4.1(jiti@2.7.0)
       eslint-config-prettier: 10.1.8(eslint@10.4.1(jiti@2.7.0))
       eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.61.0(eslint@10.4.1(jiti@2.7.0))(typescript@5.9.3))(eslint@10.4.1(jiti@2.7.0))
-      eslint-plugin-simple-import-sort: 13.0.0(eslint@10.4.1(jiti@2.7.0))
+      eslint-plugin-simple-import-sort: 14.0.0(eslint@10.4.1(jiti@2.7.0))
       globals: 17.6.0
     optionalDependencies:
       eslint-plugin-playwright: 2.10.4(eslint@10.4.1(jiti@2.7.0))
@@ -6985,7 +6985,7 @@ snapshots:
       eslint: 10.4.1(jiti@2.7.0)
       globals: 17.6.0
 
-  eslint-plugin-simple-import-sort@13.0.0(eslint@10.4.1(jiti@2.7.0)):
+  eslint-plugin-simple-import-sort@14.0.0(eslint@10.4.1(jiti@2.7.0)):
     dependencies:
       eslint: 10.4.1(jiti@2.7.0)
 
